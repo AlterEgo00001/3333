@@ -102,7 +102,7 @@
 
 .pswp__zoom-wrap {
 	position: absolute;
-	max-width: 100%;
+	max-width: 250%;
 	-webkit-transform-origin: left top;
 	-ms-transform-origin: left top;
 	transform-origin: left top;
