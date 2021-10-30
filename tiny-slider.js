@@ -1133,6 +1133,14 @@ var tns = function() {
                         "aria-label": "Carousel Navigation",
                         tabindex: "0"
                     }), g(vn, {
+                        "data-controls": "prev"
+                    }), g(hn, {
+                        "data-controls": "next"
+                    }), g(bn.children, {
+                        "aria-controls": Kt,
+                        tabindex: "-1"
+                    })) : (nt.insertAdjacentHTML(), bn = nt.querySelector(".tns-controls"), vn = bn.children[0], hn = bn.children[1]), pn = re(vn), mn = re(hn), Ot || se(pn, vn, !0), D(bn, _t), yn || x(bn)), Un && D(at, rn), Kn && D(at, on), wt && D(z, an), "inner" === xt ? Xt.on("outerResized", function() {
+                        M(), Xt.emit("innerLoaded", Fe())
                     }) : (D(B, {
                         resize: W
                     }), "outer" === xt && Xt.on("innerLoaded", Z)), J(), Z(), S(), H(), Xt.on("indexChanged", _), "function" == typeof Ut && Ut(Fe()), "inner" === xt && Xt.emit("innerLoaded", Fe()), Qt && L(!0)
